@@ -1,0 +1,113 @@
+@media only screen and (max-width: $bp-small) {
+  .login__container {
+    &-email,
+    &-portfolio,
+    &-github {
+      height: 2.5rem;
+      width: 2.5rem;
+    }
+  }
+
+  .name {
+    font-size: 1.2rem;
+  }
+
+  .input-login {
+    width: 25rem;
+  }
+
+  .btn-submit {
+    width: 25rem;
+  }
+
+  .nav__search {
+    display: none;
+  }
+  .nav__icons-search {
+    display: inline-block;
+  }
+}
+
+@media only screen and (max-width: $bp-largest) {
+  .login,
+  .register {
+    width: 100%;
+  }
+
+  .login__left {
+    display: none;
+  }
+
+  #login {
+    height: 100%;
+  }
+}
+
+@media only screen and (max-width: $bp-medium) {
+  .main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    user-select: none;
+    margin-left: 0;
+    margin-top: 4rem;
+  }
+
+  .sidebar {
+    top: 0;
+    left: -18rem;
+    padding-right: 2rem;
+    position: fixed;
+  }
+
+  .line {
+    display: block;
+    margin-left: 19rem;
+  }
+
+  .nav__custom {
+    display: none;
+  }
+
+  .main__content {
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    &-post {
+      max-width: 100%;
+    }
+  }
+
+  .main__post {
+    width: 100%;
+    min-width: 100%;
+
+    &-msg {
+      min-width: none;
+    }
+  }
+  .nav__icons-settings {
+    display: inline-block;
+  }
+}
+@media only screen and (max-width: $bp-large) {
+}
+@media only screen and (max-width: $bp-huge) {
+  .profile,
+  .nav {
+    border-radius: 0;
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: $bp-small) {
+  .nav__input-2 {
+    display: none;
+  }
+
+  #logo {
+    display: block;
+  }
+}

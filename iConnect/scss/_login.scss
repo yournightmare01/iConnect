@@ -1,0 +1,185 @@
+.login__container {
+  background-color: #014051ea;
+  height: 100%;
+  display: flex;
+  width: 100%;
+  position: relative;
+  border-top-right-radius: 0.8rem;
+  border-bottom-right-radius: 0.8rem;
+  &-portfolio {
+    height: 4rem;
+    width: 4rem;
+    fill: white;
+  }
+
+  &-github {
+    height: 4rem;
+    width: 4rem;
+    fill: white;
+  }
+
+  &-email {
+    height: 4.5rem;
+    width: 4.5rem;
+    fill: white;
+  }
+
+  &-password {
+    margin-top: 3rem;
+  }
+  &-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 auto;
+  }
+}
+
+.login__container-register {
+  background-color: #014051ea;
+  height: 100%;
+  display: flex;
+  width: 100%;
+  position: relative;
+
+  &--form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 auto;
+  }
+
+  .login__container-mail {
+    margin-top: 3rem;
+  }
+
+  .login__container-password-2 {
+    margin-top: 3rem;
+  }
+}
+
+.link-to-login,
+.link-to-register {
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+#background {
+  align-items: center;
+  display: flex;
+  position: relative;
+  background-color: #0c4e63;
+  width: 100vw;
+  height: 100vh;
+  min-height: 70rem;
+}
+
+#login {
+  display: flex;
+  background-image: url('../img/forest.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 140rem;
+  height: 70rem;
+  margin: 0 auto;
+  box-shadow: 0px 5px 15px 3px #00000080;
+  border-radius: 1rem;
+}
+
+.input-login {
+  width: 33rem;
+  background-color: transparent;
+  border: 1px solid white;
+  border-radius: 5rem;
+  padding: 1rem 2rem;
+  font-size: 1.6rem;
+  outline: none;
+  font-family: 'Poppins';
+  font-weight: 300;
+  color: white;
+
+  &::placeholder {
+    color: rgb(199, 199, 199);
+  }
+}
+
+.login,
+.register {
+  width: 50%;
+  height: 100%;
+}
+
+.login__left {
+  width: 50%;
+}
+
+.contact,
+.contact-2 {
+  position: absolute;
+  text-align: center;
+  flex-direction: column;
+  display: flex;
+  width: 40%;
+
+  &__icons {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+}
+
+.contact {
+  left: 2rem;
+  bottom: 2rem;
+}
+.contact-2 {
+  right: 2rem;
+  bottom: 2rem;
+}
+
+.name {
+  font-size: 1.7rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
+  color: white;
+}
+
+.link-to-register,
+.link-to-login {
+  margin-top: 2rem;
+  font-size: 1.2rem;
+  color: white;
+  text-decoration: none;
+  margin-bottom: 10rem;
+}
+strong {
+  text-decoration: underline;
+}
+
+.register-forms {
+  margin-top: 3rem;
+}
+
+.mail-confirm {
+  color: red;
+  font-weight: 300;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.mail-taken {
+  color: red;
+  font-weight: 300;
+  font-size: 1.5rem;
+  margin-bottom: -1rem;
+}
+
+.mail-sent {
+  margin-bottom: 1em;
+}

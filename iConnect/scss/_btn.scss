@@ -1,0 +1,45 @@
+.btn {
+  padding: 0.5rem 2rem;
+  font-size: 1.6rem;
+  border: none;
+  font-family: 'Poppins';
+  font-weight: 500;
+  outline: none;
+  user-select: none;
+  &:hover {
+    cursor: pointer;
+    transition: all 0.4s;
+    transform: scale(1.02);
+  }
+
+  &-primary {
+    background-color: var(--color-white);
+    border-radius: 5rem;
+  }
+
+  &-primary-2 {
+    background-color: transparent;
+    color: var(--text-color);
+    width: 100%;
+    font-weight: 500;
+    font-size: 1.6rem;
+  }
+
+  &-sec {
+    background-color: var(--color-white);
+    border-radius: $border-raius;
+  }
+
+  &-submit {
+    color: #0a3c4c;
+    width: 33rem;
+    margin-top: 2em;
+    border-radius: 5rem;
+    padding: 1.2rem 1rem;
+  }
+}
+
+.svg:hover {
+  transform: scale(1.1);
+  transition: all 0.2s;
+}
